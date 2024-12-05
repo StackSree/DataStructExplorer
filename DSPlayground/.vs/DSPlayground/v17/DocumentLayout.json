@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Git\\DataStructExplorer\\DSPlayground\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EFB36E-D349-42BB-95D9-7D3BCD099E00}|Sorting\\BubbleSort\\BubbleSort.csproj|d:\\git\\datastructexplorer\\dsplayground\\sorting\\bubblesort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EFB36E-D349-42BB-95D9-7D3BCD099E00}|Sorting\\BubbleSort\\BubbleSort.csproj|solutionrelative:sorting\\bubblesort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EFB36E-D349-42BB-95D9-7D3BCD099E00}|Sorting\\BubbleSort\\BubbleSort.csproj|d:\\git\\datastructexplorer\\dsplayground\\sorting\\bubblesort\\bubblesort.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3EFB36E-D349-42BB-95D9-7D3BCD099E00}|Sorting\\BubbleSort\\BubbleSort.csproj|solutionrelative:sorting\\bubblesort\\bubblesort.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BubbleSort",
+              "DocumentMoniker": "D:\\Git\\DataStructExplorer\\DSPlayground\\Sorting\\BubbleSort\\BubbleSort.csproj",
+              "RelativeDocumentMoniker": "Sorting\\BubbleSort\\BubbleSort.csproj",
+              "ToolTip": "D:\\Git\\DataStructExplorer\\DSPlayground\\Sorting\\BubbleSort\\BubbleSort.csproj",
+              "RelativeToolTip": "Sorting\\BubbleSort\\BubbleSort.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T12:09:41.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\DataStructExplorer\\DSPlayground\\Sorting\\BubbleSort\\Program.cs",
+              "RelativeDocumentMoniker": "Sorting\\BubbleSort\\Program.cs",
+              "ToolTip": "D:\\Git\\DataStructExplorer\\DSPlayground\\Sorting\\BubbleSort\\Program.cs",
+              "RelativeToolTip": "Sorting\\BubbleSort\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:08:59.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
