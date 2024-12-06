@@ -23,9 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{0BC2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{4414D8DB-BE23-4085-A6A9-42AC5717BCE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "Sorting\BubbleSort\BubbleSort.csproj", "{B3EFB36E-D349-42BB-95D9-7D3BCD099E00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "Sorting\BubbleSort\BubbleSort.csproj", "{B3EFB36E-D349-42BB-95D9-7D3BCD099E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortBySwap", "Sorting\BubbleSortBySwap\BubbleSortBySwap.csproj", "{255F608C-7794-4FF2-BFB7-FA23398ADABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortBySwap", "Sorting\BubbleSortBySwap\BubbleSortBySwap.csproj", "{255F608C-7794-4FF2-BFB7-FA23398ADABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "Sorting\MergeSort\MergeSort.csproj", "{BABC3401-67CB-4045-8031-3134F07C89E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{255F608C-7794-4FF2-BFB7-FA23398ADABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{255F608C-7794-4FF2-BFB7-FA23398ADABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{255F608C-7794-4FF2-BFB7-FA23398ADABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABC3401-67CB-4045-8031-3134F07C89E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABC3401-67CB-4045-8031-3134F07C89E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABC3401-67CB-4045-8031-3134F07C89E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABC3401-67CB-4045-8031-3134F07C89E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B3EFB36E-D349-42BB-95D9-7D3BCD099E00} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{255F608C-7794-4FF2-BFB7-FA23398ADABA} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{BABC3401-67CB-4045-8031-3134F07C89E3} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
