@@ -1,9 +1,9 @@
 ﻿
-namespace sorting;
+namespace BubbleSort;
 
-class BubbleSort
+internal static class BubbleSort
 {
-    static void Main()
+    private static void Main()
     {
         int[] numbers = { 100, 9, 7, 12, 67, 78, 89 };
 
@@ -16,23 +16,21 @@ class BubbleSort
         PrintArray(numbers);
     }
 
-    public static void BubbleSorting(int[] numbers)
+    private static void BubbleSorting(int[] numbers)
     {
-       int n = numbers.Length;
+       var n = numbers.Length;
         
         for (int i = 0; i < n-1; i++)
         { 
             // flag to optimise and reduce un necessary iteration
-            bool swapped = false;
+            var swapped = false;
 
-            for (int j = 0; j < n-1; j++)
+            for (var j = 0; j < n-1; j++)
             {
                 swapped = true;
                 if (numbers[j] > numbers[j+1])
                 {
-                    int temp = numbers[j];
-                    numbers[j] = numbers[j+1];
-                    numbers[j+1] = temp;
+                    (numbers[j], numbers[j+1]) = (numbers[j+1], numbers[j]);
                 }
             }
 
