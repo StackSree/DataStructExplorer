@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeSort", "Sorting\Panc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitonicSort", "Sorting\BitonicSort\BitonicSort.csproj", "{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSort", "Sorting\TreeSort\TreeSort.csproj", "{D7A53E90-0C18-47E6-BE9F-BDE1394743CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A53E90-0C18-47E6-BE9F-BDE1394743CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A53E90-0C18-47E6-BE9F-BDE1394743CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A53E90-0C18-47E6-BE9F-BDE1394743CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A53E90-0C18-47E6-BE9F-BDE1394743CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{95061B6E-6ECE-4DC5-825B-6DF346DB71B6} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{F617E822-EE38-4249-A780-FD9190F2C3A0} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{D7A53E90-0C18-47E6-BE9F-BDE1394743CC} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
