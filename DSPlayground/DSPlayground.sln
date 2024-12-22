@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GnomeSort", "Sorting\GnomeS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeSort", "Sorting\PancakeSort\PancakeSort.csproj", "{F617E822-EE38-4249-A780-FD9190F2C3A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitonicSort", "Sorting\BitonicSort\BitonicSort.csproj", "{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{F617E822-EE38-4249-A780-FD9190F2C3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F617E822-EE38-4249-A780-FD9190F2C3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F617E822-EE38-4249-A780-FD9190F2C3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{AD869380-4727-4532-80FA-E4BE3EA8D913} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{95061B6E-6ECE-4DC5-825B-6DF346DB71B6} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{F617E822-EE38-4249-A780-FD9190F2C3A0} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{2633EC78-1763-472E-AEEB-BBC05AAAEEE9} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
