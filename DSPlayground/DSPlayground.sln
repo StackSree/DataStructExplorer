@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigeonholeSort", "Sorting\P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycleSort", "Sorting\CycleSort\CycleSort.csproj", "{0CEE8664-CB8D-4DAF-B332-17E43E56717F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenSort", "Sorting\OddEvenSort\OddEvenSort.csproj", "{3EA83F64-CECC-4D0B-B164-F22F59E45AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{0CEE8664-CB8D-4DAF-B332-17E43E56717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CEE8664-CB8D-4DAF-B332-17E43E56717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CEE8664-CB8D-4DAF-B332-17E43E56717F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA83F64-CECC-4D0B-B164-F22F59E45AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA83F64-CECC-4D0B-B164-F22F59E45AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA83F64-CECC-4D0B-B164-F22F59E45AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA83F64-CECC-4D0B-B164-F22F59E45AA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{D7A53E90-0C18-47E6-BE9F-BDE1394743CC} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{F363E79E-601C-44BD-B3A0-70641E60FC8A} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{0CEE8664-CB8D-4DAF-B332-17E43E56717F} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{3EA83F64-CECC-4D0B-B164-F22F59E45AA8} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
