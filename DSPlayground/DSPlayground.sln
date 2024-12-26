@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddEvenSort", "Sorting\OddE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BogoSort", "Sorting\BogoSort\BogoSort.csproj", "{BF22164E-B6E4-49EB-9DF6-64D544FD81AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoogeSort", "Sorting\StoogeSort\StoogeSort.csproj", "{D516964B-36E3-418E-8B18-6A293756E180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoogeSort", "Sorting\StoogeSort\StoogeSort.csproj", "{D516964B-36E3-418E-8B18-6A293756E180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashSort", "Sorting\FlashSort\FlashSort.csproj", "{5B995283-D7AB-4C15-97F5-1A155BED123A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,10 @@ Global
 		{D516964B-36E3-418E-8B18-6A293756E180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D516964B-36E3-418E-8B18-6A293756E180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D516964B-36E3-418E-8B18-6A293756E180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B995283-D7AB-4C15-97F5-1A155BED123A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B995283-D7AB-4C15-97F5-1A155BED123A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B995283-D7AB-4C15-97F5-1A155BED123A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B995283-D7AB-4C15-97F5-1A155BED123A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +194,7 @@ Global
 		{3EA83F64-CECC-4D0B-B164-F22F59E45AA8} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{BF22164E-B6E4-49EB-9DF6-64D544FD81AC} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{D516964B-36E3-418E-8B18-6A293756E180} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{5B995283-D7AB-4C15-97F5-1A155BED123A} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
