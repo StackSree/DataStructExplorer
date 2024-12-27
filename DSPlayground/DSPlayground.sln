@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlashSort", "Sorting\FlashS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombSort", "Sorting\CombSort\CombSort.csproj", "{977C7654-60D5-4949-81D3-7680FAEEB37E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "Searching\LinearSearch\LinearSearch.csproj", "{CBCEFEC0-32C6-439A-985C-4BF65C541CC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +175,10 @@ Global
 		{977C7654-60D5-4949-81D3-7680FAEEB37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{977C7654-60D5-4949-81D3-7680FAEEB37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{977C7654-60D5-4949-81D3-7680FAEEB37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCEFEC0-32C6-439A-985C-4BF65C541CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCEFEC0-32C6-439A-985C-4BF65C541CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCEFEC0-32C6-439A-985C-4BF65C541CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCEFEC0-32C6-439A-985C-4BF65C541CC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +208,7 @@ Global
 		{D516964B-36E3-418E-8B18-6A293756E180} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{5B995283-D7AB-4C15-97F5-1A155BED123A} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{977C7654-60D5-4949-81D3-7680FAEEB37E} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{CBCEFEC0-32C6-439A-985C-4BF65C541CC6} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
