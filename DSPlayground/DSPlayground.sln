@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearchGeneric", "Sear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchIterative", "Searching\BinarySearchIterative\BinarySearchIterative.csproj", "{D7A16D63-AA7B-4C33-9431-7D0363BE0403}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatienceSort", "Sorting\PatienceSort\PatienceSort.csproj", "{84973B92-0819-447A-BF87-30BC64E25878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{D7A16D63-AA7B-4C33-9431-7D0363BE0403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A16D63-AA7B-4C33-9431-7D0363BE0403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A16D63-AA7B-4C33-9431-7D0363BE0403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84973B92-0819-447A-BF87-30BC64E25878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84973B92-0819-447A-BF87-30BC64E25878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84973B92-0819-447A-BF87-30BC64E25878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84973B92-0819-447A-BF87-30BC64E25878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +250,7 @@ Global
 		{D29BEA43-07D3-4F30-BFF5-34C5D0CE68E2} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{1C77F125-9066-424B-97AA-E8BF36BC6877} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{D7A16D63-AA7B-4C33-9431-7D0363BE0403} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{84973B92-0819-447A-BF87-30BC64E25878} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
