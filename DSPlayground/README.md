@@ -103,3 +103,11 @@ While linked lists provide several advantages, they also come with some drawback
 - **No Random Access**: Traversal is required to access elements.  
 
 The decision to use linked lists should depend on the specific requirements of your application.
+
+| Variant               | Key Characteristics                       | Usage                                                            |
+|-----------------------|-------------------------------------------|------------------------------------------------------------------|
+| `LinkedList<T>`       | Built-in, doubly linked list              | Use for general-purpose doubly linked list operations            |
+| Singly Linked List    | Custom, single pointer per node           | Simpler, less memory overhead                                    |
+| Doubly Linked List    | Custom, two pointers (next and previous)  | Bidirectional traversal, custom implementations                  |
+| Circular Linked List  | Last node points to the first node        | Applications like buffering, playlists, and round-robin tasks    |
+
