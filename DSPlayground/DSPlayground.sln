@@ -75,27 +75,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "Searching\L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchArray", "Searching\LinearSearchArray\LinearSearchArray.csproj", "{E8577D10-9A5F-41E2-8C2E-A8B537187E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearchList", "Searching\LinearSearchList\LinearSearchList.csproj", "{E77E0B56-F9C0-4480-8B1E-EB477DC470D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchList", "Searching\LinearSearchList\LinearSearchList.csproj", "{E77E0B56-F9C0-4480-8B1E-EB477DC470D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearchRecursive", "Searching\LinearSearchRecursive\LinearSearchRecursive.csproj", "{D29BEA43-07D3-4F30-BFF5-34C5D0CE68E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchRecursive", "Searching\LinearSearchRecursive\LinearSearchRecursive.csproj", "{D29BEA43-07D3-4F30-BFF5-34C5D0CE68E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearchGeneric", "Searching\LinearSearchGeneric\LinearSearchGeneric.csproj", "{1C77F125-9066-424B-97AA-E8BF36BC6877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchGeneric", "Searching\LinearSearchGeneric\LinearSearchGeneric.csproj", "{1C77F125-9066-424B-97AA-E8BF36BC6877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchIterative", "Searching\BinarySearchIterative\BinarySearchIterative.csproj", "{D7A16D63-AA7B-4C33-9431-7D0363BE0403}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchIterative", "Searching\BinarySearchIterative\BinarySearchIterative.csproj", "{D7A16D63-AA7B-4C33-9431-7D0363BE0403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatienceSort", "Sorting\PatienceSort\PatienceSort.csproj", "{84973B92-0819-447A-BF87-30BC64E25878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatienceSort", "Sorting\PatienceSort\PatienceSort.csproj", "{84973B92-0819-447A-BF87-30BC64E25878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchRecursive", "Searching\BinarySearchRecursive\BinarySearchRecursive.csproj", "{7FA7972E-4B80-4333-93EF-09C14F55AABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchRecursive", "Searching\BinarySearchRecursive\BinarySearchRecursive.csproj", "{7FA7972E-4B80-4333-93EF-09C14F55AABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleepSort", "Sorting\SleepSort\SleepSort.csproj", "{C9B3F259-1684-4996-B873-BBB3EF2F5C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SleepSort", "Sorting\SleepSort\SleepSort.csproj", "{C9B3F259-1684-4996-B873-BBB3EF2F5C7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListDefault", "LinkedList\LinkedListDefault\LinkedListDefault.csproj", "{53991737-CBE2-40B9-8589-05AD065001BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListDefault", "LinkedList\LinkedListDefault\LinkedListDefault.csproj", "{53991737-CBE2-40B9-8589-05AD065001BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList", "LinkedList\SinglyLinkedList\SinglyLinkedList.csproj", "{EAA049EE-61A3-46AE-B992-95760B212549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedList", "LinkedList\SinglyLinkedList\SinglyLinkedList.csproj", "{EAA049EE-61A3-46AE-B992-95760B212549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "LinkedList\DoublyLinkedList\DoublyLinkedList.csproj", "{69B56D67-1370-4AF5-8B85-964523D15457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoublyLinkedList", "LinkedList\DoublyLinkedList\DoublyLinkedList.csproj", "{69B56D67-1370-4AF5-8B85-964523D15457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularLinkedList", "LinkedList\CircularLinkedList\CircularLinkedList.csproj", "{F3572F23-6A80-4AAA-AD33-A837AA201A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularLinkedList", "LinkedList\CircularLinkedList\CircularLinkedList.csproj", "{F3572F23-6A80-4AAA-AD33-A837AA201A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchArrayBuiltIn", "Searching\BinarySearchArrayBuiltIn\BinarySearchArrayBuiltIn.csproj", "{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +253,10 @@ Global
 		{F3572F23-6A80-4AAA-AD33-A837AA201A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3572F23-6A80-4AAA-AD33-A837AA201A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3572F23-6A80-4AAA-AD33-A837AA201A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -293,6 +299,7 @@ Global
 		{EAA049EE-61A3-46AE-B992-95760B212549} = {F262DDB5-361C-4310-80AF-B00E58CE5EA4}
 		{69B56D67-1370-4AF5-8B85-964523D15457} = {F262DDB5-361C-4310-80AF-B00E58CE5EA4}
 		{F3572F23-6A80-4AAA-AD33-A837AA201A09} = {F262DDB5-361C-4310-80AF-B00E58CE5EA4}
+		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
