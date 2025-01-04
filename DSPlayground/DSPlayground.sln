@@ -99,6 +99,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularLinkedList", "Linke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchArrayBuiltIn", "Searching\BinarySearchArrayBuiltIn\BinarySearchArrayBuiltIn.csproj", "{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchListBuiltIn", "Searching\BinarySearchListBuiltIn\BinarySearchListBuiltIn.csproj", "{671CB5AD-8B2D-449F-84B1-660FCA5A66F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -257,6 +259,10 @@ Global
 		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671CB5AD-8B2D-449F-84B1-660FCA5A66F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671CB5AD-8B2D-449F-84B1-660FCA5A66F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671CB5AD-8B2D-449F-84B1-660FCA5A66F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671CB5AD-8B2D-449F-84B1-660FCA5A66F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -300,6 +306,7 @@ Global
 		{69B56D67-1370-4AF5-8B85-964523D15457} = {F262DDB5-361C-4310-80AF-B00E58CE5EA4}
 		{F3572F23-6A80-4AAA-AD33-A837AA201A09} = {F262DDB5-361C-4310-80AF-B00E58CE5EA4}
 		{05190D51-2BC3-4836-BAF9-FEFCF3F1A606} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{671CB5AD-8B2D-449F-84B1-660FCA5A66F1} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
