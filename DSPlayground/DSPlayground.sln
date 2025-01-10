@@ -120,6 +120,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableSearch", "Searchin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionarySearch", "Searching\DictionarySearch\DictionarySearch.csproj", "{28C474B1-52F5-4D18-BFAF-03BCB0243989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveSort", "Sorting\WaveSort\WaveSort.csproj", "{0BA4F2A0-14C6-4100-A46A-598E14DC9619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -314,6 +316,10 @@ Global
 		{28C474B1-52F5-4D18-BFAF-03BCB0243989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C474B1-52F5-4D18-BFAF-03BCB0243989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C474B1-52F5-4D18-BFAF-03BCB0243989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA4F2A0-14C6-4100-A46A-598E14DC9619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA4F2A0-14C6-4100-A46A-598E14DC9619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA4F2A0-14C6-4100-A46A-598E14DC9619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA4F2A0-14C6-4100-A46A-598E14DC9619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -366,6 +372,7 @@ Global
 		{1D108600-746D-4266-BD7A-50EB24704AAD} = {6A05A3D1-6FDF-491F-8899-BCC1B7612755}
 		{2AEF1532-7150-47B1-9BFE-AF97EEAB62B1} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{28C474B1-52F5-4D18-BFAF-03BCB0243989} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{0BA4F2A0-14C6-4100-A46A-598E14DC9619} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
