@@ -124,6 +124,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveSort", "Sorting\WaveSor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothSort", "Sorting\SmoothSort\SmoothSort.csproj", "{3F0F112C-8B60-4B5C-9F4B-92F29BD5D13C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrandSort", "Sorting\StrandSort\StrandSort.csproj", "{B037C1D0-1239-4A09-9777-B2199829FD68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +328,10 @@ Global
 		{3F0F112C-8B60-4B5C-9F4B-92F29BD5D13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F0F112C-8B60-4B5C-9F4B-92F29BD5D13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F0F112C-8B60-4B5C-9F4B-92F29BD5D13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B037C1D0-1239-4A09-9777-B2199829FD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B037C1D0-1239-4A09-9777-B2199829FD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B037C1D0-1239-4A09-9777-B2199829FD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B037C1D0-1239-4A09-9777-B2199829FD68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -380,6 +386,7 @@ Global
 		{28C474B1-52F5-4D18-BFAF-03BCB0243989} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{0BA4F2A0-14C6-4100-A46A-598E14DC9619} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 		{3F0F112C-8B60-4B5C-9F4B-92F29BD5D13C} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
+		{B037C1D0-1239-4A09-9777-B2199829FD68} = {824B4C97-A832-4FC0-8096-40CB93F3A2E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
