@@ -130,9 +130,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreesDefault", "Trees\Trees
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "Trees\BinaryTree\BinaryTree.csproj", "{0B26D847-D7EC-4F05-AB61-0546622015C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trees\Trie\Trie.csproj", "{D3578874-ABF1-4531-B6F6-BE9ED2F0BBB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trie", "Trees\Trie\Trie.csproj", "{D3578874-ABF1-4531-B6F6-BE9ED2F0BBB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeFileSystem", "Trees\TreeFileSystem\TreeFileSystem.csproj", "{8EC67D66-F216-4987-8451-5ADDE5FFD7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeFileSystem", "Trees\TreeFileSystem\TreeFileSystem.csproj", "{8EC67D66-F216-4987-8451-5ADDE5FFD7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-DFS", "Trees\Tree-DFS\Tree-DFS.csproj", "{E38BDB64-5615-4957-8AC9-AD6BD52DA152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -356,6 +358,10 @@ Global
 		{8EC67D66-F216-4987-8451-5ADDE5FFD7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC67D66-F216-4987-8451-5ADDE5FFD7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC67D66-F216-4987-8451-5ADDE5FFD7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38BDB64-5615-4957-8AC9-AD6BD52DA152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38BDB64-5615-4957-8AC9-AD6BD52DA152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38BDB64-5615-4957-8AC9-AD6BD52DA152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38BDB64-5615-4957-8AC9-AD6BD52DA152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -415,6 +421,7 @@ Global
 		{0B26D847-D7EC-4F05-AB61-0546622015C8} = {4761137E-9424-4395-BC4C-075C90A01B44}
 		{D3578874-ABF1-4531-B6F6-BE9ED2F0BBB3} = {4761137E-9424-4395-BC4C-075C90A01B44}
 		{8EC67D66-F216-4987-8451-5ADDE5FFD7B6} = {4761137E-9424-4395-BC4C-075C90A01B44}
+		{E38BDB64-5615-4957-8AC9-AD6BD52DA152} = {4761137E-9424-4395-BC4C-075C90A01B44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
