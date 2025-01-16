@@ -23,6 +23,10 @@ internal class Program
         // Print the tree in sorted order
         Console.WriteLine("Pre-order Traversal:");
         bst.PreOrderTraversal();
+
+        // print the tree in sorted order
+        Console.WriteLine("Post-Order Traversal");
+        bst.PostOrderDFS();
     }
 }
 public class BinaryTreeNode<T> where T : IComparable<T>
@@ -79,5 +83,12 @@ public class BinaryTreeNode<T> where T : IComparable<T>
         Console.WriteLine(Data);
         Left?.PreOrderTraversal();
         Right?.PreOrderTraversal();
+    }
+
+    public void PostOrderDFS()
+    {
+        Left?.PostOrderDFS();
+        Right?.PostOrderDFS();
+        Console.WriteLine(Data);  
     }
 }
