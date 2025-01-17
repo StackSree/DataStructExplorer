@@ -140,6 +140,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDFSIterative", "Trees\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDefault", "Queues\QueueDefault\QueueDefault.csproj", "{035B83AD-4A24-4270-B524-B67E70F0A6CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueBFS", "Queues\QueueBFS\QueueBFS.csproj", "{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -374,6 +376,10 @@ Global
 		{035B83AD-4A24-4270-B524-B67E70F0A6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035B83AD-4A24-4270-B524-B67E70F0A6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035B83AD-4A24-4270-B524-B67E70F0A6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -436,6 +442,7 @@ Global
 		{E38BDB64-5615-4957-8AC9-AD6BD52DA152} = {4761137E-9424-4395-BC4C-075C90A01B44}
 		{3634D615-59F3-4DEC-8E85-289E4256BD34} = {4761137E-9424-4395-BC4C-075C90A01B44}
 		{035B83AD-4A24-4270-B524-B67E70F0A6CC} = {0EF8B328-1E5E-42BA-BFEC-2FC56069B12A}
+		{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E} = {0EF8B328-1E5E-42BA-BFEC-2FC56069B12A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
