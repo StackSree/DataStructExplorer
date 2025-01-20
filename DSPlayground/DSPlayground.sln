@@ -138,11 +138,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree-DFS", "Trees\Tree-DFS\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDFSIterative", "Trees\TreeDFSIterative\TreeDFSIterative.csproj", "{3634D615-59F3-4DEC-8E85-289E4256BD34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDefault", "Queues\QueueDefault\QueueDefault.csproj", "{035B83AD-4A24-4270-B524-B67E70F0A6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueDefault", "Queues\QueueDefault\QueueDefault.csproj", "{035B83AD-4A24-4270-B524-B67E70F0A6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueBFS", "Queues\QueueBFS\QueueBFS.csproj", "{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueBFS", "Queues\QueueBFS\QueueBFS.csproj", "{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDataBufferingSimulation", "Queues\QueueDataBufferingSimulation\QueueDataBufferingSimulation.csproj", "{8155FCEE-EF3F-4C25-AAF5-4B71DDAF1D14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueDataBufferingSimulation", "Queues\QueueDataBufferingSimulation\QueueDataBufferingSimulation.csproj", "{8155FCEE-EF3F-4C25-AAF5-4B71DDAF1D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstraSearch", "Searching\DijkstraSearch\DijkstraSearch.csproj", "{AF53FC45-DA3F-4F7D-9AD8-1497DC88B8CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -386,6 +388,10 @@ Global
 		{8155FCEE-EF3F-4C25-AAF5-4B71DDAF1D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8155FCEE-EF3F-4C25-AAF5-4B71DDAF1D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8155FCEE-EF3F-4C25-AAF5-4B71DDAF1D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF53FC45-DA3F-4F7D-9AD8-1497DC88B8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF53FC45-DA3F-4F7D-9AD8-1497DC88B8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF53FC45-DA3F-4F7D-9AD8-1497DC88B8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF53FC45-DA3F-4F7D-9AD8-1497DC88B8CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -450,6 +456,7 @@ Global
 		{035B83AD-4A24-4270-B524-B67E70F0A6CC} = {0EF8B328-1E5E-42BA-BFEC-2FC56069B12A}
 		{2C817BAA-8020-4EF5-9EFA-8EF2B19FCD0E} = {0EF8B328-1E5E-42BA-BFEC-2FC56069B12A}
 		{8155FCEE-EF3F-4C25-AAF5-4B71DDAF1D14} = {0EF8B328-1E5E-42BA-BFEC-2FC56069B12A}
+		{AF53FC45-DA3F-4F7D-9AD8-1497DC88B8CF} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
