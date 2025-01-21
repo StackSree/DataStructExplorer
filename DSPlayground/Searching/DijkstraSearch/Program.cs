@@ -35,7 +35,11 @@ class Graph
 
         adjList[u].Add((v, weight));
 
-        // Uncomment for an undirected graph
+        // Ensure the target node exists in the adjacency list
+        if (!adjList.ContainsKey(v))
+            adjList[v] = new List<(int, int)>();
+
+        // Uncomment for undirected graph
         // if (!adjList.ContainsKey(v))
         //     adjList[v] = new List<(int, int)>();
         // adjList[v].Add((u, weight));
