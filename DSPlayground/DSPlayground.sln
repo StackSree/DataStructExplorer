@@ -156,6 +156,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearch", "Search
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSearch", "Searching\FibonacciSearch\FibonacciSearch.csproj", "{4B15C33A-4AC2-4387-9D01-175986F26468}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpSearch", "Searching\JumpSearch\JumpSearch.csproj", "{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -422,6 +424,10 @@ Global
 		{4B15C33A-4AC2-4387-9D01-175986F26468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B15C33A-4AC2-4387-9D01-175986F26468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B15C33A-4AC2-4387-9D01-175986F26468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -492,6 +498,7 @@ Global
 		{A53CD897-B900-4C11-AF39-366F8F7D2B2B} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{9A174926-4D61-4E73-A096-C2D74F7B0D4D} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{4B15C33A-4AC2-4387-9D01-175986F26468} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
