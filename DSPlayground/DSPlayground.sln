@@ -158,7 +158,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSearch", "Searchin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpSearch", "Searching\JumpSearch\JumpSearch.csproj", "{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTreeSearch", "Searching\AVLTreeSearch\AVLTreeSearch.csproj", "{615388D2-544B-481C-BFF5-B6DDA93D707C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AVLTreeSearch", "Searching\AVLTreeSearch\AVLTreeSearch.csproj", "{615388D2-544B-481C-BFF5-B6DDA93D707C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBlackTreeSearch", "Searching\RedBlackTreeSearch\RedBlackTreeSearch.csproj", "{DCAEBD69-677D-4734-9A9C-1CF2F4627F37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -434,6 +436,10 @@ Global
 		{615388D2-544B-481C-BFF5-B6DDA93D707C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615388D2-544B-481C-BFF5-B6DDA93D707C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615388D2-544B-481C-BFF5-B6DDA93D707C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAEBD69-677D-4734-9A9C-1CF2F4627F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAEBD69-677D-4734-9A9C-1CF2F4627F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAEBD69-677D-4734-9A9C-1CF2F4627F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAEBD69-677D-4734-9A9C-1CF2F4627F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -506,6 +512,7 @@ Global
 		{4B15C33A-4AC2-4387-9D01-175986F26468} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{8C4CD9BB-7B9F-4CCD-A9C5-DB18F84EE73E} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{615388D2-544B-481C-BFF5-B6DDA93D707C} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{DCAEBD69-677D-4734-9A9C-1CF2F4627F37} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
