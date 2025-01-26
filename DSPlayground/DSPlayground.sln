@@ -164,6 +164,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBlackTreeSearch", "Searc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-TreesSearch", "Searching\B-TreesSearch\B-TreesSearch.csproj", "{B904194E-4599-4F39-B8B8-37A5BC3F9B86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-3TreesSearch", "Searching\2-3TreesSearch\2-3TreesSearch.csproj", "{2213E08A-80DD-482E-B08B-9C45CC9F83A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -446,6 +448,10 @@ Global
 		{B904194E-4599-4F39-B8B8-37A5BC3F9B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B904194E-4599-4F39-B8B8-37A5BC3F9B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B904194E-4599-4F39-B8B8-37A5BC3F9B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2213E08A-80DD-482E-B08B-9C45CC9F83A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2213E08A-80DD-482E-B08B-9C45CC9F83A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2213E08A-80DD-482E-B08B-9C45CC9F83A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2213E08A-80DD-482E-B08B-9C45CC9F83A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -520,6 +526,7 @@ Global
 		{615388D2-544B-481C-BFF5-B6DDA93D707C} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{DCAEBD69-677D-4734-9A9C-1CF2F4627F37} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{B904194E-4599-4F39-B8B8-37A5BC3F9B86} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{2213E08A-80DD-482E-B08B-9C45CC9F83A6} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
