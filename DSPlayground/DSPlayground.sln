@@ -174,6 +174,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuckooHashingSearch", "Sear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMPAlgorithm", "Searching\KMPAlgorithm\KMPAlgorithm.csproj", "{119738E5-82AC-4278-9CA2-43A8FDD69584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabinKarpSearch", "Searching\RabinKarpSearch\RabinKarpSearch.csproj", "{04800CB2-C711-4BBB-B3EE-EEC367886112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -476,6 +478,10 @@ Global
 		{119738E5-82AC-4278-9CA2-43A8FDD69584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{119738E5-82AC-4278-9CA2-43A8FDD69584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{119738E5-82AC-4278-9CA2-43A8FDD69584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04800CB2-C711-4BBB-B3EE-EEC367886112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04800CB2-C711-4BBB-B3EE-EEC367886112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04800CB2-C711-4BBB-B3EE-EEC367886112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04800CB2-C711-4BBB-B3EE-EEC367886112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -555,6 +561,7 @@ Global
 		{E1EE21CB-9931-4C19-BCED-690729E94015} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{C9BF38DF-00F6-4698-88A2-4344210D940A} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{119738E5-82AC-4278-9CA2-43A8FDD69584} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{04800CB2-C711-4BBB-B3EE-EEC367886112} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
