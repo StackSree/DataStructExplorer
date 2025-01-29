@@ -178,6 +178,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabinKarpSearch", "Searchin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoyerMooreSearch", "Searching\BoyerMooreSearch\BoyerMooreSearch.csproj", "{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhoCorasickSearch", "Searching\AhoCorasickSearch\AhoCorasickSearch.csproj", "{DF03D81F-1B79-410B-895A-617578B8096E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -488,6 +490,10 @@ Global
 		{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF03D81F-1B79-410B-895A-617578B8096E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF03D81F-1B79-410B-895A-617578B8096E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF03D81F-1B79-410B-895A-617578B8096E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF03D81F-1B79-410B-895A-617578B8096E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -569,6 +575,7 @@ Global
 		{119738E5-82AC-4278-9CA2-43A8FDD69584} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{04800CB2-C711-4BBB-B3EE-EEC367886112} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{DF03D81F-1B79-410B-895A-617578B8096E} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
