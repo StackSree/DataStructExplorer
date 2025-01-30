@@ -180,6 +180,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoyerMooreSearch", "Searchi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhoCorasickSearch", "Searching\AhoCorasickSearch\AhoCorasickSearch.csproj", "{DF03D81F-1B79-410B-895A-617578B8096E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentTreeSearch", "Searching\SegmentTreeSearch\SegmentTreeSearch.csproj", "{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -494,6 +496,10 @@ Global
 		{DF03D81F-1B79-410B-895A-617578B8096E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF03D81F-1B79-410B-895A-617578B8096E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF03D81F-1B79-410B-895A-617578B8096E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -576,6 +582,7 @@ Global
 		{04800CB2-C711-4BBB-B3EE-EEC367886112} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{DF03D81F-1B79-410B-895A-617578B8096E} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{A44D8E6B-2804-4AB9-8E69-63EE8B57719D} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
