@@ -176,17 +176,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KMPAlgorithm", "Searching\K
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabinKarpSearch", "Searching\RabinKarpSearch\RabinKarpSearch.csproj", "{04800CB2-C711-4BBB-B3EE-EEC367886112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoyerMooreSearch", "Searching\BoyerMooreSearch\BoyerMooreSearch.csproj", "{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoyerMooreSearch", "Searching\BoyerMooreSearch\BoyerMooreSearch.csproj", "{5FFCF8A1-0A28-4800-898D-5EC1CF8DF20D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhoCorasickSearch", "Searching\AhoCorasickSearch\AhoCorasickSearch.csproj", "{DF03D81F-1B79-410B-895A-617578B8096E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhoCorasickSearch", "Searching\AhoCorasickSearch\AhoCorasickSearch.csproj", "{DF03D81F-1B79-410B-895A-617578B8096E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentTreeSearch", "Searching\SegmentTreeSearch\SegmentTreeSearch.csproj", "{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegmentTreeSearch", "Searching\SegmentTreeSearch\SegmentTreeSearch.csproj", "{A44D8E6B-2804-4AB9-8E69-63EE8B57719D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FenwickTreeSearch", "Searching\FenwickTreeSearch\FenwickTreeSearch.csproj", "{58C8AB10-6FB5-4B54-A1F0-3F6100D49B35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FenwickTreeSearch", "Searching\FenwickTreeSearch\FenwickTreeSearch.csproj", "{58C8AB10-6FB5-4B54-A1F0-3F6100D49B35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparseTableSearch", "Searching\SparseTableSearch\SparseTableSearch.csproj", "{EA3AC74D-777F-4DFF-AA61-24E8C4D7D3B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparseTableSearch", "Searching\SparseTableSearch\SparseTableSearch.csproj", "{EA3AC74D-777F-4DFF-AA61-24E8C4D7D3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartesianTreeSearch", "Searching\CartesianTreeSearch\CartesianTreeSearch.csproj", "{DBFDE08E-79B3-448E-A522-67E83AD61318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartesianTreeSearch", "Searching\CartesianTreeSearch\CartesianTreeSearch.csproj", "{DBFDE08E-79B3-448E-A522-67E83AD61318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseTrieSearch", "Searching\BitwiseTrieSearch\BitwiseTrieSearch.csproj", "{A7814302-E77A-4982-8D99-F68C356D0155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -518,6 +520,10 @@ Global
 		{DBFDE08E-79B3-448E-A522-67E83AD61318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBFDE08E-79B3-448E-A522-67E83AD61318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBFDE08E-79B3-448E-A522-67E83AD61318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7814302-E77A-4982-8D99-F68C356D0155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7814302-E77A-4982-8D99-F68C356D0155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7814302-E77A-4982-8D99-F68C356D0155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7814302-E77A-4982-8D99-F68C356D0155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -604,6 +610,7 @@ Global
 		{58C8AB10-6FB5-4B54-A1F0-3F6100D49B35} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{EA3AC74D-777F-4DFF-AA61-24E8C4D7D3B8} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{DBFDE08E-79B3-448E-A522-67E83AD61318} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{A7814302-E77A-4982-8D99-F68C356D0155} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
