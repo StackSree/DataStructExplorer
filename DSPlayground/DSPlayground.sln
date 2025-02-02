@@ -194,6 +194,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseTrieXORMaximizationS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HopcroftKarpSearch", "Searching\HopcroftKarpSearch\HopcroftKarpSearch.csproj", "{1A62A18E-D05F-43B4-BD66-0BFB14082748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildcardSearchTrie", "Searching\WildcardSearchTrie\WildcardSearchTrie.csproj", "{E1FC89B3-9A74-443B-BB34-50E3F93E1305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -536,6 +538,10 @@ Global
 		{1A62A18E-D05F-43B4-BD66-0BFB14082748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A62A18E-D05F-43B4-BD66-0BFB14082748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A62A18E-D05F-43B4-BD66-0BFB14082748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -625,6 +631,7 @@ Global
 		{A7814302-E77A-4982-8D99-F68C356D0155} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{8A134939-816F-4A1D-B98F-FAFD85AD9053} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{1A62A18E-D05F-43B4-BD66-0BFB14082748} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{E1FC89B3-9A74-443B-BB34-50E3F93E1305} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
