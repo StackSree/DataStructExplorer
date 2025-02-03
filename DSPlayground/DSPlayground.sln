@@ -192,9 +192,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseTrieSearch", "Search
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseTrieXORMaximizationSearch", "Searching\BitwiseTrieXORMaximizationSearch\BitwiseTrieXORMaximizationSearch.csproj", "{8A134939-816F-4A1D-B98F-FAFD85AD9053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HopcroftKarpSearch", "Searching\HopcroftKarpSearch\HopcroftKarpSearch.csproj", "{1A62A18E-D05F-43B4-BD66-0BFB14082748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HopcroftKarpSearch", "Searching\HopcroftKarpSearch\HopcroftKarpSearch.csproj", "{1A62A18E-D05F-43B4-BD66-0BFB14082748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildcardSearchTrie", "Searching\WildcardSearchTrie\WildcardSearchTrie.csproj", "{E1FC89B3-9A74-443B-BB34-50E3F93E1305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildcardSearchTrie", "Searching\WildcardSearchTrie\WildcardSearchTrie.csproj", "{E1FC89B3-9A74-443B-BB34-50E3F93E1305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSimple", "Heaps\HeapSimple\HeapSimple.csproj", "{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -542,6 +544,10 @@ Global
 		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1FC89B3-9A74-443B-BB34-50E3F93E1305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -632,6 +638,7 @@ Global
 		{8A134939-816F-4A1D-B98F-FAFD85AD9053} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{1A62A18E-D05F-43B4-BD66-0BFB14082748} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
 		{E1FC89B3-9A74-443B-BB34-50E3F93E1305} = {A4A52E99-DAE0-4B27-B532-C424DC0083AD}
+		{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
