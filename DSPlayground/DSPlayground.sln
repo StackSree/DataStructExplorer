@@ -202,6 +202,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapVsStack", "Heaps\HeapVs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapObjectPool", "Heaps\HeapObjectPool\HeapObjectPool.csproj", "{40705DCB-E162-425B-97D5-C574F25E50F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapLargeObjectHeapOptimization", "Heaps\HeapLargeObjectHeapOptimization\HeapLargeObjectHeapOptimization.csproj", "{81140EE9-360B-4DA1-B2FE-B5D8A38A511A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -560,6 +562,10 @@ Global
 		{40705DCB-E162-425B-97D5-C574F25E50F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40705DCB-E162-425B-97D5-C574F25E50F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40705DCB-E162-425B-97D5-C574F25E50F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81140EE9-360B-4DA1-B2FE-B5D8A38A511A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81140EE9-360B-4DA1-B2FE-B5D8A38A511A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81140EE9-360B-4DA1-B2FE-B5D8A38A511A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81140EE9-360B-4DA1-B2FE-B5D8A38A511A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -653,6 +659,7 @@ Global
 		{155FEC1C-F1FB-42F2-ABD8-9F840136F7D3} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{EFC245EA-A13F-431D-8699-DEA8413CC6F6} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{40705DCB-E162-425B-97D5-C574F25E50F8} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
+		{81140EE9-360B-4DA1-B2FE-B5D8A38A511A} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
