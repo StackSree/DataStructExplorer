@@ -204,9 +204,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapObjectPool", "Heaps\Hea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapLargeObjectHeapOptimization", "Heaps\HeapLargeObjectHeapOptimization\HeapLargeObjectHeapOptimization.csproj", "{81140EE9-360B-4DA1-B2FE-B5D8A38A511A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakReference", "Heaps\WeakReference\WeakReference.csproj", "{D82EBB68-3083-4F86-B604-410CD98E6D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeakReference", "Heaps\WeakReference\WeakReference.csproj", "{D82EBB68-3083-4F86-B604-410CD98E6D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMappedFile", "Heaps\MemoryMappedFile\MemoryMappedFile.csproj", "{C62E5980-183B-4A9E-8871-9542B892A193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryMappedFile", "Heaps\MemoryMappedFile\MemoryMappedFile.csproj", "{C62E5980-183B-4A9E-8871-9542B892A193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stackalloc", "Heaps\Stackalloc\Stackalloc.csproj", "{F04E3C9C-54BB-45FD-973C-29570A4FAB68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -578,6 +580,10 @@ Global
 		{C62E5980-183B-4A9E-8871-9542B892A193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C62E5980-183B-4A9E-8871-9542B892A193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C62E5980-183B-4A9E-8871-9542B892A193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04E3C9C-54BB-45FD-973C-29570A4FAB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04E3C9C-54BB-45FD-973C-29570A4FAB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04E3C9C-54BB-45FD-973C-29570A4FAB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04E3C9C-54BB-45FD-973C-29570A4FAB68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -674,6 +680,7 @@ Global
 		{81140EE9-360B-4DA1-B2FE-B5D8A38A511A} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{D82EBB68-3083-4F86-B604-410CD98E6D45} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{C62E5980-183B-4A9E-8871-9542B892A193} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
+		{F04E3C9C-54BB-45FD-973C-29570A4FAB68} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
