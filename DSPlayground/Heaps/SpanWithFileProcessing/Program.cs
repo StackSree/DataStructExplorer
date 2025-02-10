@@ -4,13 +4,14 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        const string filePath = "log.txt";       
 
-        foreach (var span in ReadLines("file.txt"))
+        string filePath = $"{AppDomain.CurrentDomain.BaseDirectory}log.txt";             
+
+        foreach (var strean in ReadLines(filePath))
         {
-            if (span.Contains("ERROR", StringComparison.OrdinalIgnoreCase))
+            if (strean.Span.Contains("ERROR".AsSpan(), StringComparison.OrdinalIgnoreCase))
             {
-                Console.WriteLine(span.ToString()); // Print directly
+                Console.WriteLine(strean.Span.ToString()); 
             }
         }
     }   
@@ -19,10 +20,12 @@ internal class Program
     {
         using StreamReader reader = new StreamReader(filePath);
 
-        char[] buffer = new char[1024]; // Read in chunks
+        // Read in chunks
+        char[] buffer = new char[1024]; 
         while (reader.Read(buffer, 0, buffer.Length) > 0)
         {
-            yield return buffer.AsMemory(); // ✅ ReadOnlyMemory<char> works with IEnumerable<T>
+            // ✅ ReadOnlyMemory<char> works with IEnumerable<T>
+            yield return buffer.AsMemory(); 
         }
     }
 }

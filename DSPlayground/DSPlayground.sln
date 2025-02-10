@@ -220,6 +220,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryTAllocation", "Heaps\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanStringManipulation", "Heaps\SpanStringManipulation\SpanStringManipulation.csproj", "{62C4C72C-CD41-4AF0-94A1-0D4EBF8A26EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanWithFileProcessing", "Heaps\SpanWithFileProcessing\SpanWithFileProcessing.csproj", "{A5B044AF-F75F-44A8-865C-7CE17AB85EDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -614,6 +616,10 @@ Global
 		{62C4C72C-CD41-4AF0-94A1-0D4EBF8A26EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C4C72C-CD41-4AF0-94A1-0D4EBF8A26EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C4C72C-CD41-4AF0-94A1-0D4EBF8A26EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B044AF-F75F-44A8-865C-7CE17AB85EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B044AF-F75F-44A8-865C-7CE17AB85EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B044AF-F75F-44A8-865C-7CE17AB85EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B044AF-F75F-44A8-865C-7CE17AB85EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -716,6 +722,7 @@ Global
 		{1B839C5C-A249-4069-9C84-9B77CE6027A6} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{7A32995A-5096-4BAC-828D-0B40ECE79A34} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{62C4C72C-CD41-4AF0-94A1-0D4EBF8A26EF} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
+		{A5B044AF-F75F-44A8-865C-7CE17AB85EDA} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
