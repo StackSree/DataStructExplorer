@@ -224,6 +224,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanWithFileProcessing", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanVsTraditionalArrray", "Heaps\SpanVsTraditionalArrray\SpanVsTraditionalArrray.csproj", "{39B2AFB1-23D8-48BE-B13A-888971F2C11B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapEfficientAsyncProcessingwithMemoryT", "Heaps\HeapEfficientAsyncProcessingwithMemoryT\HeapEfficientAsyncProcessingwithMemoryT.csproj", "{46F7F3BD-B727-441F-9C3B-C43AF2174057}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -626,6 +628,10 @@ Global
 		{39B2AFB1-23D8-48BE-B13A-888971F2C11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39B2AFB1-23D8-48BE-B13A-888971F2C11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39B2AFB1-23D8-48BE-B13A-888971F2C11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F7F3BD-B727-441F-9C3B-C43AF2174057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F7F3BD-B727-441F-9C3B-C43AF2174057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F7F3BD-B727-441F-9C3B-C43AF2174057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F7F3BD-B727-441F-9C3B-C43AF2174057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -730,6 +736,7 @@ Global
 		{62C4C72C-CD41-4AF0-94A1-0D4EBF8A26EF} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{A5B044AF-F75F-44A8-865C-7CE17AB85EDA} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 		{39B2AFB1-23D8-48BE-B13A-888971F2C11B} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
+		{46F7F3BD-B727-441F-9C3B-C43AF2174057} = {D7F443DB-1443-4F49-B34A-FF95B1B23BB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {950BF70A-EDE2-4B36-95EE-F418B4753A00}
