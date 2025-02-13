@@ -11,7 +11,9 @@ internal class Program
         using FileStream fs = new(filePath, FileMode.Open);
         Memory<byte> memoryBuffer = buffer;
 
-        int bytesRead = await fs.ReadAsync(memoryBuffer); // No extra allocations!
+        // No extra allocations!
+        int bytesRead = await fs.ReadAsync(memoryBuffer); 
+
         Console.WriteLine($"Bytes Read: {bytesRead}");
     }
 }
